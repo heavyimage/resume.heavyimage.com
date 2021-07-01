@@ -7,54 +7,41 @@ Jesse Spielman
 
 ----
 
-Education
----------
+Contact
+-------
+**Email**: <Jesse.Spielman@gmail.com> • **UK Phone**: +44 (0)78 088 61922
 
-2021-2024
-:   **PhD, Computer Science** University of Birmingham (Birmingham, UK)
+**Twitter**: [twitter.com/heavyimage](https://www.twitter.com/heavyimage) • **Github**: [github.com/heavyimage](https://www.github.com/heavyimage)
 
-* Thesis Topic: an area of overlap between Cybersecurity and ML
-* Supervised by Dr. David Oswald and Dr. Mark Ryan
-* Funding -- Intel Corporation
+Proficiencies
+-------------
 
-2019-2020
-:   **MSc, Advanced Computer Science (with Distinction)** University of Birmingham (Birmingham, UK)
+* Languages: English (native speaker)
 
-* Dissertation: "Hey Alexa: Who’s Mallory? An Amazon Alexa Intercept Appliance"
-* Modules on: ML, Operating Systems, Cryptography, Parallel Computing, Data Mining, Mobile.
-* Member: AFNOM ethical hacking club.
+* Programming Languages: Python, C, Java, Processing, shell scripting
 
-2012-2013
-:   **Continuing Education** ITP @ New York University (New York)
+* Other Computer Skills: git, linux administration, reverse engineering, troubleshooting
 
-Summer workshops on creative coding, 3d printing and 'maker' technologies
-
-2004-2008
-:   **BFA Film and Animation (with Honors)** RIT (Rochester, USA)
-
-* Minor in Computer Science
-* Concentration in Communications
+* Soft skills: Excellent written / spoken communication, problem solving, leadership and mentoring
 
 
 Professional Experience
 -----------------------
 
 2020
-:	**Application Vulnerability Testing** Robot Talk (New York)
+:	**Application Vulnerability Testing**, [Robot Talk](https://www.robottalk.tv) (New York)
 
 Lead local application tests for a multi-platform Electron / Go based application. Used discreet proxy and fuzzing tools to inspect traffic and API endpoints. Compiled vulnerability report as part of overall client security remediation audit.
 
 2019-present
-:	**Pipeline Consultant**, (Global)
+:	**Pipeline Consultant** (Global)
 
 Leveraging my 10 years of Visual Effects (VFX) industry experience I now consult for various studios to assist them with their pipeline / technical needs.  Most recently this has involved Flame and Windows pipeline integration.
 
 2014-2019
-:	**Senior Pipeline Technical Director**, Framestore (New York, London)
+:	**Senior Pipeline Technical Director**, [Framestore](https://www.framestore.com/) (New York, London)
 
-After working as a VFX artist I made the transition to 2D/Pipeline Technical Director (TD), which I did for 5 years.
-
-I was hired by Framestore for my programming skills and experience as a compositor to be the point person for the 2D aspects of their new Integrated Advertising pipeline.
+After working as a VFX artist I made the transition to 2D/Pipeline Technical Director (TD), which I did for 5 years.  I was hired by Framestore for my programming skills and experience as a compositor to be the point person for the 2D aspects of their new Integrated Advertising pipeline.
 
 Key Pipeline TD accomplishments:
 
@@ -68,11 +55,11 @@ Key Pipeline TD accomplishments:
 
 Key 2D TD accomplishments:
 
+* Working closely with artists, **integrated / modified many SGTK apps** to better fit our usage patterns, passing code / comments back to Shotgun.
 * Developed **user-friendly** renderfarm, asset library and client download area integration for Nuke and Hiero.
 * Massively improved the **tk-hiero-export** app to support timeline exports, published audio and modular updates of SG Shot fields.
 * Wrote a few **show-specific Nuke tools** e.g. a screenspace rigging tool.
 * **Debugged complex Nuke / Hiero scripts** from production, often with gdb.
-* Working closely with artists, **integrated / modified many SGTK apps** to better fit our usage patterns, passing code / comments back to Shotgun.
 
 Other accomplishments:
 
@@ -82,49 +69,82 @@ Other accomplishments:
 * **Tutored** junior / new members of the team.
 
 2009-2014
-:	**Freelance and Staff Compositor**, (New York and London)
+:	**Freelance and Staff Compositor** (New York, London)
 
-I worked for 6 years as a Compositor (VFX artist) across multiple films, TV shows and advertisement campaigns, including the Oscar nominated film "Inside Llewyn Davis" and the James Bond Film "Spectre".
+I worked for 6 years as a Compositor (VFX artist) across multiple films, TV shows and advertisement campaigns, including the Oscar nominated film "Inside Llewyn Davis" and the James Bond Film "Spectre".  
 
 I performed start-to-finish compositing (paint and roto, 2d and 3d tracking, keying, color correction and full comp work) for at least 30 TV and Film projects in Shake and Nuke.
 
-More information is available on my [IMDB profile](https://www.imdb.com/name/nm2993340/); examples of work can be seen on my [2013 showreel](https://vimeo.com/63213779).
+More information is available via my [IMDB profile](https://www.imdb.com/name/nm2993340/) and my [2013 showreel](https://vimeo.com/63213779).
+
+
+Education
+---------
+
+2021-2024
+:   **PhD, Computer Science**, [University of Birmingham](http://cs.bham.ac.uk/) (Birmingham, UK)
+
+* Thesis Topic: Using Side Channel Attacks to leak hidden data in Neural Networks
+* Supervised by Dr. David Oswald and Dr. Mark Ryan
+* Funding -- Intel Corporation
+
+2019-2020
+:   **MSc, Advanced Computer Science (Distinction)**, [University of Birmingham](http://cs.bham.ac.uk/) (Birmingham, UK)
+
+* Dissertation: "Hey Alexa: Who’s Mallory? An Amazon Alexa Intercept Appliance"
+* Modules on: ML, Operating Systems, Cryptography, Parallel Computing, Data Mining, Mobile.
+* Member: AFNOM ethical hacking club.
+
+2012-2013
+:   **Continuing Education**, [ITP @ New York University](https://tisch.nyu.edu/itp) (New York)
+
+Summer workshops on creative coding, 3d printing and 'maker' technologies
+
+2004-2008
+:   **BFA Film and Animation (Honors)**, [RIT](https://www.rit.edu) (Rochester, USA)
+
+* Minor in Computer Science
+* Concentration in Communications
+
 
 Talks, Lectures and Participation
 ---------------------------------
 
 Dec 2020
-:	**LD_PRELOAD and You** AFNOM lightning talks (Birmingham, UK)
+:	**LD_PRELOAD and You** [AFNOM](https://afnom.net) Lightning Talks (Birmingham, UK)
 
 [Slides and Materials](https://github.com/heavyimage/ld_preload_afnom_talk)
 
 Jul 2020
-:	**Perceval** CtF challenge, wtctf (Birmingham, UK)
+:	**Perceval CtF challenge**, wtctf (Birmingham, UK)
 
 Feb 2019
-:	**Hack the Solar System Hackthon** AMNH (New York)
+:	**Hack the Solar System Hackathon**, [AMNH](http://amnh.org) (New York)
 
 Honorable Mention for work as part of a team that [helped extract](https://github.com/HackTheSolarSystem/3Dand2DBubblesInRock-OvernightOwls) the positions of 3d metal 'bubbles' found inside a volumetric scan of a meteorite for the American Museum of Natural History's annual Hackathon.
 
 Feb 2018
-:	**Hack the Deep Hackathon** AMNH (New York)
+:	**Hack the Deep Hackathon**, [AMNH](http://amnh.org) (New York)
 
 Part of an ad-hoc team which [wrote a program](https://github.com/HackTheDeep/teamgoop) to help generate 3d geometry from photographs of 50nm wide slices of cellular anatomy.
 
 Apr, 2016
-:   **Spectre Title Sequence: A Case Study** FMX (Stuttgart, Germany)
+:   **Spectre Title Sequence: A Case Study**, [FMX](https://fmx.de/) (Stuttgart, Germany)
 
 Apr, 2015
-:	**Syntastic for Pipeline Development** Vim London (London, UK)
+:	**Syntastic for Pipeline Development**, [Vim London](https://www.meetup.com/Vim-London/) (London)
+
+[Video of talk](https://vimeo.com/126420228)
 
 Dec, 2013
-:	**VFX Photogrammetry with VisualSFM** NYC Nuke User Group (New York)
+:	**VFX Photogrammetry with VisualSFM**, NYC Nuke User Group (New York)
 
 Jul, 2013
-:	**Writing a Music Visualizer from Scratch** ITP Camp @ NYU (New York)
+:	**Writing a Music Visualizer from Scratch**, [ITP Camp @ NYU](http://itp.nyu.edu/camp/) (New York)
 
 Jul, 2012
-:	**Generative 3D modeling with Structure Synth** ITP Camp @ NYU (New York)
+:	**Generative 3D modeling with Structure Synth**, [ITP Camp @ NYU](http://itp.nyu.edu/camp/) (New York)
+
 
 Personal Projects
 -----------------
@@ -157,26 +177,12 @@ Nov 2020
 
 
 2015-2017
-:	**Radio Lollipop Engineer** Great Ormond Street Hospital for Children (London, UK)
+:	**Engineer**, [Radio Lollipop](https://www.radiolollipop.org) @ Great Ormond Street Hospital for Children (London)
 
 Help maintain / update the technical systems for the radio station at the children's hospital
 
 
-Proficiencies
--------------
-
-* Languages: English (native speaker)
-
-* Programming Languages: Python, c, Java, shell scripting
-
-* Other Computer Skills: git, linux system administration, reverse engineering, troubleshooting
-
-* Soft skills: Excellent written / spoken communication, problem solving, leadership and mentoring
-
-* Interests: Pub Quiz, Music Visualization, Photogrammetry, Board Games, Blues Music, CtFs
-
-
-----
-> <Jesse.Spielman@gmail.com> • +44 (0)78 088 61922 \
-> [heavyimage.com](http://www.heavyimage.com) • [twitter.com/heavyimage](https://www.twitter.com/heavyimage)
+Interests
+---------
+Pub Quiz, Music Visualization, Photogrammetry, Board Games, Blues Music, CtFs.
 
