@@ -3,7 +3,7 @@ Jesse Spielman
 
 ----
 
->  Passionate, personable, and highly motivated computer scientist seeks challenging, fun, and ethical opportunties after 11 years in another industry.
+>  Passionate, personable, and highly motivated computer scientist seeks challenging, fun, and ethical opportunities after 11 years in another industry.
 
 ----
 
@@ -26,12 +26,12 @@ Education
 
 2012-2013
 :   **Continuing Education** ITP @ New York University (New York)
-    
-* Summer workshops on creative coding, 3d printing and 'maker' technologies
+
+Summer workshops on creative coding, 3d printing and 'maker' technologies
 
 2004-2008
 :   **BFA Film and Animation (with honors)** RIT (Rochester, USA)
-    
+
 * Minor in Computer Science
 * Concentration in Communications
 
@@ -46,9 +46,9 @@ Professional Experience
 -----------------------
 
 2020
-:	**Penetration Testing** Robot Talk (New York)
+:	**Application Vulnerability Testing** Robot Talk (New York)
 
-Helped Robot talk penetration test a multi-platform Electron application for one of their clients using proxies and fuzzers.
+Lead local application tests for a multi-platform Electron / Go based application. Used discreet proxy and fuzzing tools to inspect traffic and API endpoints. Compiled vulnerability report as part of overall client security remediation audit.
 
 2019-present
 :	**Pipeline Consultant**, (Global)
@@ -60,7 +60,7 @@ Leveraging my 10 years of Visual Effects (VFX) industry experience I now consult
 
 After working as a VFX artist I made the transition to 2D/Pipeline Technical Director (TD), which I did for 5 years.
 
-I was hired by Framestore for my programming skills and experience as a compositor to be the point person for the 2D aspects of their new Integrated Advertising pipeline. 
+I was hired by Framestore for my programming skills and experience as a compositor to be the point person for the 2D aspects of their new Integrated Advertising pipeline.
 
 Key accomplishments:
 
@@ -96,15 +96,18 @@ Dec 2020
 
 [Slides and Materials](https://github.com/heavyimage/ld_preload_afnom_talk)
 
+Jul 2020
+:	**Perceval** CtF challenge, wtctf (Birmingham, UK)
+
 Feb 2019
 :	**Hack the Solar System Hackthon** AMNH (New York)
 
-Honorable Mention for work as part of a team that helped extract the positions of 3d metal 'bubbles' found inside a volumetric scan of a meteorite for the American Museuem of Natural History's annual Hackathon.
+Honorable Mention for work as part of a team that helped extract the positions of 3d metal 'bubbles' found inside a volumetric scan of a meteorite for the American Museum of Natural History's annual Hackathon.
 
 Feb 2018
 :	**Hack the Deep Hackathon** AMNH (New York)
 
-Part of an ad hoc team which wrote a program to help generate 3d geometry from photographs of 50nm wide scans of cellular anatomy.
+Part of an ad-hoc team which wrote a program to help generate 3d geometry from photographs of 50nm wide scans of cellular anatomy.
 
 Apr, 2016
 :   **Spectre Title Sequence: A Case Study** FMX (Stuttgart, Germany)
@@ -130,29 +133,31 @@ Wrote [nuke.vim](https://www.github.com/heavyimage/nuke.vim), a tool for bridgin
 
 **Photogrammetry workflow**
 
-Wote an [online tutorial](http://wedidstuff.heavyimage.com) about a free structure-from-motion pipeline that still draws a few hundred hits a day and was written up in Make magazine.
+Wrote an [online tutorial](http://wedidstuff.heavyimage.com) about a free structure-from-motion pipeline that still draws a few hundred hits a day and was written up in Make magazine.
 
 
 Volunteer Work
 --------------
 
-2020
+Jan 2021
 :	**Volunteer** Georgia Democratic Party (Georgia, USA)
 
-* Helped with 'Turf Cutting' to guide volunteers to contiguous areas of Georgia
-* Provided technical support to 'special cases' team
+* Helped with 'Turf Cutting' to help volunteers cure ballots
+* Technical adviser to 'special cases' team which focused especially on disenfranchised voters
+* Managed / cleaned data in VAN and Google Sheets to support researchers
 
-2020
+Nov 2020
 :	**Volunteer** Democratic Party's National Voter Protection Hotline (USA)
 
-* Helped do technical support for remote call center volunteers
+* Performed technical support for 12,000+ virtual call center volunteers who were assisting voters around the country for the 2020 Presidential election.
 * Improved a Browser plugin to assist with automating downloads of shift data
+* Helped support early AM US shift from Europe
 
 
 2015-2017
 :	**Radio Lollipop Engineer** Great Ormond Street Hospital for Children (London, UK)
 
-Help maintain / update the technical systems for the radio station at the Children's Hospital.
+Help maintain / update the technical systems for the radio station at the children's hospital
 
 
 Proficiencies

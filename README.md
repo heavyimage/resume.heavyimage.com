@@ -12,6 +12,13 @@ $ vim markdown/resume.md   # insert your own resume info
 $ make # Make everything
 ```
 
+#### Deploy Changes:
+
+```bash
+$ git remote add deploy ssh://$USER@$HOST:$PORT$PATH
+$ git push deploy
+```
+
 #### Dockerized
 
 Make everything
