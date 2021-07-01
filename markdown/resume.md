@@ -1,9 +1,9 @@
 Jesse Spielman
-============
+==============
 
 ----
 
->  Passionate, personable, and highly motivated computer scientist seeks challenging, fun, and ethical opportunities after 11 years in another industry.
+>  Passionate, personable and highly motivated computer scientist seeks challenging, unique and ethical opportunities.
 
 ----
 
@@ -35,12 +35,6 @@ Summer workshops on creative coding, 3d printing and 'maker' technologies
 * Minor in Computer Science
 * Concentration in Communications
 
-2000-2004
-:   **High School Diploma** Hunter College High School (New York)
-
-* International Debate Champion
-* National AP Scholar
-
 
 Professional Experience
 -----------------------
@@ -53,7 +47,7 @@ Lead local application tests for a multi-platform Electron / Go based applicatio
 2019-present
 :	**Pipeline Consultant**, (Global)
 
-Leveraging my 10 years of Visual Effects (VFX) industry experience I now consult for various studios to assist them with their pipeline / technical needs.
+Leveraging my 10 years of Visual Effects (VFX) industry experience I now consult for various studios to assist them with their pipeline / technical needs.  Most recently this has involved Flame and Windows pipeline integration.
 
 2014-2019
 :	**Senior Pipeline Technical Director**, Framestore (New York, London)
@@ -62,22 +56,30 @@ After working as a VFX artist I made the transition to 2D/Pipeline Technical Dir
 
 I was hired by Framestore for my programming skills and experience as a compositor to be the point person for the 2D aspects of their new Integrated Advertising pipeline.
 
-Key accomplishments:
+Key Pipeline TD accomplishments:
 
-* Personally co-designed and implemented many of our core 2d workflows -- ingest publishing, lockdown, interactive publish visualization badges, prerender bypass, editorial ingest and conform, review and export to client
-* Helped integrate shotgun / SGTK into the studio and educate artists / leads about these tools. Working closely with artists integrated / modified (via hooks or forking) many SGTK apps to better fit our usage patterns, passing code / comments back to Shotgun
-* Massively modified the tk-hiero-export app to support timeline exports, published audio and modular updates of SG Shot fields
-* Developed user-friendly renderfarm, asset library, and client download area integration (developed by other teams at FS) for Nuke and Hiero
-* Managed code releases for multiple libraries across dozens of projects and multiple versions of Nuke / Hiero simultaneously
-* Wrote GUI (PyQt / PySide) and command line tools to interact with the pipeline
-* Wrote extra actions for Loader and Workfiles Manager to simply common artist tasks. Also helped bridge this actions directly into Nuke via shim
-* Wrote a few show-specfic Nuke tools e.g. a screenspace rigging tool
-* Helped integrate OCIO/ACES into our environment and updating our tools to be driven by OCIO where appropriate
-* Developed tools to leverage the 'metadata web' of published files that are built during production into tools eg: 'load all geo used in this render' or 'import Nuke script that made this render'
-* Helped comp on a tricky section of the Spectre (James Bond) title sequence
-* Debugged complex Nuke / Hiero scripts from production, often with gdb
-* Managed and defended the codebase, insisting on global collaboration and relevance before making changes; Saying 'no'
-* Co-winner of Shotgun 'Shotty' Award for my team's work with SGTK
+* Co-winner of [2015 Shotgun 'Shotty' Award](https://www.shotgridsoftware.com/blog/2015-pipeline-awards-recipients/) for our team's work with SGTK.
+* Personally co-designed and implemented many of our **core 2d workflows** -- Ingest Publishing, 'The Lockdown', Interactive Publish Sisualization Badges, Prerender Bypass, Editorial Ingest and Conform, Review and Export to Client.
+* Helped integrate **Shotgun / SGTK** into the studio and educate artists / leads about these tools.
+* Wrote **GUI (PyQt / PySide) and command line tools** to interact with the pipeline.
+* Wrote **extra actions for Loader** and Workfiles Manager to simply common artist tasks. Also helped bridge this actions directly into Nuke via shim.
+* Helped integrate **OCIO/ACES** into our environment and updated our tools to be driven by OCIO where appropriate.
+* Developed tools to **leverage the 'metadata web'** of published files that are built during production into tools eg: 'load all geo used in this render' or 'import Nuke script that made this render'.
+
+Key 2D TD accomplishments:
+
+* Developed **user-friendly** renderfarm, asset library and client download area integration for Nuke and Hiero.
+* Massively improved the **tk-hiero-export** app to support timeline exports, published audio and modular updates of SG Shot fields.
+* Wrote a few **show-specific Nuke tools** e.g. a screenspace rigging tool.
+* **Debugged complex Nuke / Hiero scripts** from production, often with gdb.
+* Working closely with artists, **integrated / modified many SGTK apps** to better fit our usage patterns, passing code / comments back to Shotgun.
+
+Other accomplishments:
+
+* **Managed code releases** for multiple libraries across dozens of projects and multiple versions of Nuke / Hiero simultaneously **across four time zones**.
+* Managed and **defended the codebase**, insisting on global collaboration and relevance before making changes; Saying 'no'.
+* Coherently explained complex workflows and tools to artists.
+* Tutored junior and new members of the team.
 
 2009-2014
 :	**Freelance and Staff Compositor**, (New York and London)
@@ -86,7 +88,7 @@ I worked for 6 years as a Compositor (VFX artist) across multiple films, TV show
 
 I performed start-to-finish compositing (paint and roto, 2d and 3d tracking, keying, color correction and full comp work) for at least 30 TV and Film projects in Shake and Nuke.
 
-My IMDB profile is [here](https://www.imdb.com/name/nm2993340/) and my 2013 showreel is [here](https://vimeo.com/63213779).
+More inforomation / examples available on my [IMDB profile](https://www.imdb.com/name/nm2993340/) and my [2013 showreel](https://vimeo.com/63213779).
 
 Talks, Lectures and Participation
 ---------------------------------
@@ -102,12 +104,12 @@ Jul 2020
 Feb 2019
 :	**Hack the Solar System Hackthon** AMNH (New York)
 
-Honorable Mention for work as part of a team that helped extract the positions of 3d metal 'bubbles' found inside a volumetric scan of a meteorite for the American Museum of Natural History's annual Hackathon.
+Honorable Mention for work as part of a team that [helped extract](https://github.com/HackTheSolarSystem/3Dand2DBubblesInRock-OvernightOwls) the positions of 3d metal 'bubbles' found inside a volumetric scan of a meteorite for the American Museum of Natural History's annual Hackathon.
 
 Feb 2018
 :	**Hack the Deep Hackathon** AMNH (New York)
 
-Part of an ad-hoc team which wrote a program to help generate 3d geometry from photographs of 50nm wide scans of cellular anatomy.
+Part of an ad-hoc team which [wrote a program](https://github.com/HackTheDeep/teamgoop) to help generate 3d geometry from photographs of 50nm wide scans of cellular anatomy.
 
 Apr, 2016
 :   **Spectre Title Sequence: A Case Study** FMX (Stuttgart, Germany)
@@ -121,7 +123,7 @@ Dec, 2013
 Jul, 2013
 :	**Writing a Music Visualizer from Scratch** ITP Camp @ NYU (New York)
 
-Jul, 2021
+Jul, 2012
 :	**Generative 3D modeling with Structure Synth** ITP Camp @ NYU (New York)
 
 Personal Projects
@@ -167,11 +169,14 @@ Proficiencies
 
 * Programming Languages: Python, c, Java, shell scripting
 
-* Other Computer Skills: git, linux system administration, reverse engineering
+* Other Computer Skills: git, linux system administration, reverse engineering, troubleshooting
+
+* Soft skills: Excellent written / spoken communication, problem solving, leadership and mentoring
 
 * Interests: Pub Quiz, Music Visualization, Photogrammetry, Board Games, Blues Music, CtFs
 
 
 ----
-> <Jesse.Spielman@gmail.com> • +44 (0)78 088 61922 • [heavyimage.com](http://www.heavyimage.com) • [twitter.com/heavyimage](https://www.twitter.com/heavyimage)
+> <Jesse.Spielman@gmail.com> • +44 (0)78 088 61922 \
+> [heavyimage.com](http://www.heavyimage.com) • [twitter.com/heavyimage](https://www.twitter.com/heavyimage)
 
