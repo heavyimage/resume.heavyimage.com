@@ -16,13 +16,13 @@ Contact
 Proficiencies
 -------------
 
-* Languages: English (native speaker)
+**Languages**: English (native speaker)
 
-* Programming Languages: Python, C, Java, Processing, shell scripting
+**Programming Languages**: Python, C, Java, Processing, shell scripting
 
-* Other Computer Skills: git, linux administration, reverse engineering, troubleshooting
+**Other Computer Skills**: git, linux administration, reverse engineering, troubleshooting
 
-* Soft skills: Excellent written / spoken communication, problem solving, leadership and mentoring
+**Soft skills**: Excellent written / spoken communication, problem solving, leadership and mentoring
 
 
 Professional Experience
