@@ -30,7 +30,7 @@ Education
 Summer workshops on creative coding, 3d printing and 'maker' technologies
 
 2004-2008
-:   **BFA Film and Animation (with honors)** RIT (Rochester, USA)
+:   **BFA Film and Animation (with Honors)** RIT (Rochester, USA)
 
 * Minor in Computer Science
 * Concentration in Communications
@@ -59,10 +59,10 @@ I was hired by Framestore for my programming skills and experience as a composit
 Key Pipeline TD accomplishments:
 
 * Co-winner of [2015 Shotgun 'Shotty' Award](https://www.shotgridsoftware.com/blog/2015-pipeline-awards-recipients/) for our team's work with SGTK.
-* Personally co-designed and implemented many of our **core 2d workflows** -- Ingest Publishing, 'The Lockdown', Interactive Publish Sisualization Badges, Prerender Bypass, Editorial Ingest and Conform, Review and Export to Client.
+* Personally co-designed and implemented many of our **core 2d workflows** -- Ingest Publishing, 'The Lockdown', Interactive Publish Visualization Badges, Prerender Bypass, Editorial Ingest and Conform, Review and Export to Client.
 * Helped integrate **Shotgun / SGTK** into the studio and educate artists / leads about these tools.
 * Wrote **GUI (PyQt / PySide) and command line tools** to interact with the pipeline.
-* Wrote **extra actions for Loader** and Workfiles Manager to simply common artist tasks. Also helped bridge this actions directly into Nuke via shim.
+* Wrote **extra actions for the Loader** and Workfiles Manager to simply common artist tasks. Also helped bridge this actions directly into Nuke via shim.
 * Helped integrate **OCIO/ACES** into our environment and updated our tools to be driven by OCIO where appropriate.
 * Developed tools to **leverage the 'metadata web'** of published files that are built during production into tools eg: 'load all geo used in this render' or 'import Nuke script that made this render'.
 
@@ -78,8 +78,8 @@ Other accomplishments:
 
 * **Managed code releases** for multiple libraries across dozens of projects and multiple versions of Nuke / Hiero simultaneously **across four time zones**.
 * Managed and **defended the codebase**, insisting on global collaboration and relevance before making changes; Saying 'no'.
-* Coherently explained complex workflows and tools to artists.
-* Tutored junior and new members of the team.
+* **Clearly communicated** complex workflows and tools to artists.
+* **Tutored** junior / new members of the team.
 
 2009-2014
 :	**Freelance and Staff Compositor**, (New York and London)
@@ -88,7 +88,7 @@ I worked for 6 years as a Compositor (VFX artist) across multiple films, TV show
 
 I performed start-to-finish compositing (paint and roto, 2d and 3d tracking, keying, color correction and full comp work) for at least 30 TV and Film projects in Shake and Nuke.
 
-More inforomation / examples available on my [IMDB profile](https://www.imdb.com/name/nm2993340/) and my [2013 showreel](https://vimeo.com/63213779).
+More information is available on my [IMDB profile](https://www.imdb.com/name/nm2993340/); examples of work can be seen on my [2013 showreel](https://vimeo.com/63213779).
 
 Talks, Lectures and Participation
 ---------------------------------
@@ -109,13 +109,13 @@ Honorable Mention for work as part of a team that [helped extract](https://githu
 Feb 2018
 :	**Hack the Deep Hackathon** AMNH (New York)
 
-Part of an ad-hoc team which [wrote a program](https://github.com/HackTheDeep/teamgoop) to help generate 3d geometry from photographs of 50nm wide scans of cellular anatomy.
+Part of an ad-hoc team which [wrote a program](https://github.com/HackTheDeep/teamgoop) to help generate 3d geometry from photographs of 50nm wide slices of cellular anatomy.
 
 Apr, 2016
 :   **Spectre Title Sequence: A Case Study** FMX (Stuttgart, Germany)
 
 Apr, 2015
-:	**Syntastic for Pipeline development** Vim London (London, UK)
+:	**Syntastic for Pipeline Development** Vim London (London, UK)
 
 Dec, 2013
 :	**VFX Photogrammetry with VisualSFM** NYC Nuke User Group (New York)
