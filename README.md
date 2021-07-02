@@ -1,9 +1,11 @@
-My Markdown Resume
-==================
+Resume Build system
+===================
 
-Based on [Pandoc Resume](https://github.com/mszep/pandoc_resume).
+This repo contains my [markdown resume](https://github.com/heavyimage/resume.heavyimage.com/blob/master/markdown/resume.md) and the system that build it into <https://resume.heavyimage.com> and a [pdf](https://resume.heavyimage.com/resume.pdf).
 
-### Instructions
+The setup is heavily based on [Pandoc Resume](https://github.com/mszep/pandoc_resume).
+
+### Build Instructions
 
 ```bash
 $ git clone https://github.com/mszep/pandoc_resume
@@ -17,6 +19,26 @@ $ make # Make everything
 ```bash
 $ git remote add deploy ssh://$USER@$HOST:$PORT$PATH
 $ git push deploy
+```
+
+For the deployment repo, you'll probably want to setup a `post-recieve` hook something like this:
+
+```bash
+#!/bin/bash
+GIT_REPO=$HOME/projects/resume-DEPLOY.git
+TMP_GIT_CLONE=$HOME/tmp/resume-DEPLOY
+PUBLIC_WWW=/var/www/resume.heavyimage.com
+
+rm -Rf $TMP_GIT_CLONE
+rm -Rf $PUBLIC_WWW/*
+git clone $GIT_REPO $TMP_GIT_CLONE
+cd $TMP_GIT_CLONE
+make html
+cp output/resume.html $PUBLIC_WWW/index.html
+make pdf
+cp output/resume.pdf $PUBLIC_WWW/resume.pdf
+rm -Rf $TMP_GIT_CLONE
+exit
 ```
 
 #### Dockerized
@@ -37,26 +59,11 @@ If not using `docker` then you will need the following dependencies.
 
 Last tested on the above versions and that's not to say the later versions won't work. Please try to use the latest versions when possible.
 
-#### Debian / Ubuntu
-
 ```bash
-$ sudo apt install pandoc context
-```
-
-#### Fedora
-```bash
-$ sudo dnf install pandoc texlive-collection-context
-```
-
-#### Arch
-```bash
-$ sudo pacman -S pandoc texlive-core
-```
-
-#### OSX
-```bash
-$ brew install pandoc mactex
-$ mtxrun --generate
+$ sudo apt install pandoc context                       # Debian / Ubuntu
+$ sudo dnf install pandoc texlive-collection-context    # Fedora
+$ sudo pacman -S pandoc texlive-core                    # Arch
+$ brew install pandoc mactex && mtxrun --generate       # MacOS
 ```
 
 ### Troubleshooting
