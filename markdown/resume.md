@@ -31,7 +31,7 @@ Professional Experience
 2020
 :	**Application Vulnerability Testing**, [Robot Talk](https://www.robottalk.tv) (New York)
 
-Lead local application tests for a multi-platform Electron / Go based application. Used discreet proxy and fuzzing tools to inspect traffic and API endpoints. Compiled vulnerability report as part of overall client security remediation audit.
+Led local application tests for a multi-platform Electron / Go based application. Used discreet proxy and fuzzing tools to inspect traffic and API endpoints. Compiled vulnerability report as part of overall client security remediation audit.
 
 2019-present
 :	**Pipeline Consultant** (Global)
@@ -49,7 +49,7 @@ Key Pipeline TD accomplishments:
 * Personally co-designed and implemented many of our **core 2d workflows** -- Ingest Publishing, 'The Lockdown', Interactive Publish Visualization Badges, Prerender Bypass, Editorial Ingest and Conform, Review and Export to Client.
 * Helped integrate **Shotgun / SGTK** into the studio and educate artists / leads about these tools.
 * Wrote **GUI (PyQt / PySide) and command line tools** to interact with the pipeline.
-* Wrote **extra actions for the Loader** and Workfiles Manager to simply common artist tasks. Also helped bridge this actions directly into Nuke via shim.
+* Wrote **extra actions for the Loader** and Workfiles Manager to simplify common artist tasks. Also helped bridge these actions directly into Nuke via shim.
 * Helped integrate **OCIO/ACES** into our environment and updated our tools to be driven by OCIO where appropriate.
 * Developed tools to **leverage the 'metadata web'** of published files that are built during production into tools eg: 'load all geo used in this render' or 'import Nuke script that made this render'.
 
