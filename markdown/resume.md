@@ -98,7 +98,7 @@ Education
 2012-2013
 :   **Continuing Education**, [ITP @ New York University](https://tisch.nyu.edu/itp) (New York)
 
-Summer workshops on creative coding, 3d printing and 'maker' technologies
+Attended 2x summer workshops on creative coding, 3d printing and 'maker' technologies
 
 2004-2008
 :   **BFA Film and Animation (Honors)**, [RIT](https://www.rit.edu) (Rochester, USA)
@@ -111,7 +111,7 @@ Talks, Lectures and Participation
 ---------------------------------
 
 Dec 2020
-:	**LD_PRELOAD and You** [AFNOM](https://afnom.net) Lightning Talks (Birmingham, UK)
+:	**LD_PRELOAD and You**, [AFNOM](https://afnom.net) Lightning Talks (Birmingham, UK)
 
 [Slides and Materials](https://github.com/heavyimage/ld_preload_afnom_talk)
 
