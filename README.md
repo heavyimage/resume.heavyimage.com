@@ -27,16 +27,21 @@ For the deployment repo, you'll probably want to setup a `post-recieve` hook som
 #!/bin/bash
 GIT_REPO=$HOME/projects/resume-DEPLOY.git
 TMP_GIT_CLONE=$HOME/tmp/resume-DEPLOY
-PUBLIC_WWW=/var/www/resume.heavyimage.com
+PUBLIC_WWW=/var/www/SUBDOMAIN.DOMAIN.com
 
-rm -Rf $TMP_GIT_CLONE
-rm -Rf $PUBLIC_WWW/*
 git clone $GIT_REPO $TMP_GIT_CLONE
 cd $TMP_GIT_CLONE
+
+# Make html version
 make html
+rm $PUBLIC_WWW/index.html
 cp output/resume.html $PUBLIC_WWW/index.html
+
+# Make pdf version
 make pdf
+rm $PUBLIC_WWW/resume.pdf
 cp output/resume.pdf $PUBLIC_WWW/resume.pdf
+
 rm -Rf $TMP_GIT_CLONE
 exit
 ```
