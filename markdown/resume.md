@@ -84,7 +84,7 @@ Education
 2021-2024
 :   **PhD, Computer Science**, [University of Birmingham](http://cs.bham.ac.uk/) (Birmingham, UK)
 
-* **Thesis Topic**: Using Side Channel Attacks to leak hidden data in Neural Networks
+* **Thesis Topic**: Using Side Channel Attacks to leak hidden parameters from Neural Networks
 * **Funding**: Intel Corporation
 * **Supervisors**: Dr. David Oswald and Dr. Mark Ryan
 
