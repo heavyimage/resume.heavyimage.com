@@ -84,16 +84,16 @@ Education
 2021-2024
 :   **PhD, Computer Science**, [University of Birmingham](http://cs.bham.ac.uk/) (Birmingham, UK)
 
-* Thesis Topic: Using Side Channel Attacks to leak hidden data in Neural Networks
-* Supervised by Dr. David Oswald and Dr. Mark Ryan
-* Funding -- Intel Corporation
+* **Thesis Topic**: Using Side Channel Attacks to leak hidden data in Neural Networks
+* **Funding**: Intel Corporation
+* **Supervisors**: Dr. David Oswald and Dr. Mark Ryan
 
 2019-2020
 :   **MSc, Advanced Computer Science (Distinction)**, [University of Birmingham](http://cs.bham.ac.uk/) (Birmingham, UK)
 
-* Dissertation: "Hey Alexa: Who’s Mallory? An Amazon Alexa Intercept Appliance"
-* Modules on: ML, Operating Systems, Cryptography, Parallel Computing, Data Mining, Mobile.
-* Member: AFNOM ethical hacking club.
+* **Dissertation**: "Hey Alexa: Who’s Mallory? An Amazon Alexa Intercept Appliance"
+* **Modules**: ML, Operating Systems, Cryptography, Parallel Computing, Data Mining, Mobile.
+* **Member**: AFNOM ethical hacking club.
 
 2012-2013
 :   **Continuing Education**, [ITP @ New York University](https://tisch.nyu.edu/itp) (New York)
@@ -103,8 +103,8 @@ Summer workshops on creative coding, 3d printing and 'maker' technologies
 2004-2008
 :   **BFA Film and Animation (Honors)**, [RIT](https://www.rit.edu) (Rochester, USA)
 
-* Minor in Computer Science
-* Concentration in Communications
+* **Minor**: Computer Science
+* **Concentration**: Communications
 
 
 Talks, Lectures and Participation
