@@ -9,9 +9,9 @@ Jesse Spielman
 
 Contact
 -------
-**Email**: <Jesse.Spielman@gmail.com> • **UK Phone**: +44 (0)78 088 61922
+**Email**: <Jesse.Spielman@gmail.com> ///// **UK Phone**: +44 (0)78 088 61922
 
-**Twitter**: [twitter.com/heavyimage](https://www.twitter.com/heavyimage) • **Github**: [github.com/heavyimage](https://www.github.com/heavyimage)
+**Twitter**: [twitter.com/heavyimage](https://www.twitter.com/heavyimage) ///// **Github**: [github.com/heavyimage](https://www.github.com/heavyimage)
 
 Proficiencies
 -------------
@@ -34,14 +34,14 @@ Professional Experience
 Led local application tests for a multi-platform Electron / Go based application. Used discreet proxy and fuzzing tools to inspect traffic and API endpoints. Compiled vulnerability report as part of overall client security remediation audit.
 
 2019-present
-:	**Pipeline Consultant** (Global)
+:	**Technical Director Consultant** (Global)
 
-Leveraging my 10 years of Visual Effects (VFX) industry experience I now consult for various studios to assist them with their pipeline / technical needs.  Most recently this has involved Flame and Windows pipeline integration.
+Leveraging my 10 years of Visual Effects (VFX) industry experience, I now consult for various studios to assist them with their technical needs including pipeline, infrastructure and artist tools.  Most recently this has involved Flame and Windows pipeline integration.
 
 2014-2019
 :	**Senior Pipeline Technical Director**, [Framestore](https://www.framestore.com/) (New York, London)
 
-After working as a VFX artist I made the transition to 2D/Pipeline Technical Director (TD), which I did for 5 years.  I was hired by Framestore for my programming skills and experience as a compositor to be the point person for the 2D aspects of their new Integrated Advertising pipeline.
+After working as a VFX artist I made the transition to Pipeline/2D Technical Director (TD), which I did for 5 years.  A Technical Directors is **development and operations** role involving writing code and mananging the infrastructure that supports production.  I was hired by Framestore for my programming skills and experience as a compositor to be the point person for the 2D aspects of their new Integrated Advertising pipeline.
 
 Key Pipeline TD accomplishments:
 
