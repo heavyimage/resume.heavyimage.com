@@ -20,7 +20,7 @@ Proficiencies
 
 **Other Computer Skills**: git, docker, linux administration, reverse engineering, troubleshooting
 
-**Soft skills**: Excellent written and spoken communication, code collaboration, problem solving, leadership and mentoring
+**Soft Skills**: Excellent written / spoken communication, collaboration, problem solving, leadership and mentoring
 
 
 Professional Experience
@@ -34,14 +34,16 @@ Led local application tests for a multi-platform Electron / Go based application
 2019-present
 :	**Technical Director Consultant** (Global)
 
-Leveraging 11 years of Visual Effects (VFX) industry experience, consultant for various studios to assist them with their technical needs including pipeline, infrastructure and artist tools.  Recent tasks have included Flame and Windows pipeline integration.
+Leveraging 11 years of Visual Effects (VFX) industry experience, consultant for various studios to assist them with their technical needs including pipeline, infrastructure and artist tools.
+
+Recent tasks have included Flame and Windows pipeline integration.
 
 2014-2019
 :	**Senior Pipeline Technical Director**, [Framestore](https://www.framestore.com/) (New York, London)
 
 After working as a VFX artist, made the transition to Pipeline/2D Technical Director (TD).  A Technical Directors is **development and operations** role involving writing code and managing the infrastructure that supports production.
 
-Was hired by Framestore for my programming skills and experience as a compositor to be the point person for the 2D aspects of their new Integrated Advertising pipeline.
+Hired by Framestore for my combination of programming skill and experience as a compositor to be the point person for the 2D aspects of their new Integrated Advertising pipeline.
 
 Key Pipeline TD accomplishments:
 
@@ -50,8 +52,8 @@ Key Pipeline TD accomplishments:
 * Helped integrate **Shotgun / SGTK** into the studio and educate artists / leads about these tools.
 * Wrote **GUI (PyQt / PySide) and command line tools** to interact with the pipeline.
 * Wrote **extra actions for the Loader** and Workfiles Manager to simplify common artist tasks. Also helped bridge these actions directly into Nuke via shim.
-* Helped integrate **OCIO/ACES** into our environment and updated our tools to be driven by OCIO where appropriate.
-* Developed tools to **leverage the 'metadata web'** of published files that are built during production into tools eg: 'load all geo used in this render' or 'import Nuke script that made this render'.
+* Helped integrate automated **OCIO/ACES** color management into our environment.
+* Developed artist/management tools to leverage the **'metadata web'** that is built during production.
 
 Key 2D TD accomplishments:
 
