@@ -2,21 +2,15 @@ OUT_DIR=output
 IN_DIR=markdown
 STYLES_DIR=styles
 STYLE=chmduquesne
-DATE=$(shell date +%Y)
+MDFILE=metadata.yaml
 
-# User info!
-AUTHOR_Q := "Jesse Spielman"
-SUBTITLE_Q := "Resume"
-KEYWORDS_Q := "Technical Director, ML, Cybersecurity, Reverse Engineering"
-TITLE_Q := "${AUTHOR_Q} ${SUBTITLE_Q} ${DATE}"
-
-# Remove Quotes from variables...
-# https://stackoverflow.com/a/10430975
-AUTHOR := $(subst $\",,$(AUTHOR_Q))
-SUBTITLE := $(subst $\",,$(SUBTITLE_Q))
-KEYWORDS := $(subst $\",,$(KEYWORDS_Q))
-TITLE := $(subst $\",,$(TITLE_Q))
-
+# The pandoc / mtxrun workflow doesn't properly support the --metadata-file flag
+# Workaround by populating the template at compile time with values read from
+# the ${MDFILE} file!
+TITLE = $(shell grep "^title" ${MDFILE} | cut -d":" -f2 | sed 's/\"//g' | xargs)
+SUBTITLE = $(shell grep "^subtitle" ${MDFILE} | cut -d":" -f2 | sed 's/\"//g' | xargs)
+AUTHOR = $(shell grep "^author" ${MDFILE} | cut -d":" -f2 | sed 's/\"//g' | xargs)
+KEYWORDS = $(shell grep "^keywords" ${MDFILE} | cut -d":" -f2 | sed 's/\"//g' | sed 's/[][]//g' | xargs)
 
 all: html pdf docx rtf
 
@@ -28,7 +22,7 @@ pdf: init
 		pandoc --standalone --template /tmp/style.tex \
 			--from markdown --to context \
 			--variable papersize=A4 \
-			--output $(OUT_DIR)/$$FILE_NAME.tex $$f > /dev/null; \
+			--output $(OUT_DIR)/$$FILE_NAME.tex $$f > /dev/null;\
 		mtxrun --path=$(OUT_DIR) --result=$$FILE_NAME.pdf --script context $$FILE_NAME.tex > $(OUT_DIR)/context_$$FILE_NAME.log 2>&1; \
 	done
 
@@ -39,22 +33,26 @@ html: init
 		pandoc --standalone --include-in-header $(STYLES_DIR)/$(STYLE).css \
 			--lua-filter=pdc-links-target-blank.lua \
 			--from markdown --to html \
-			--output $(OUT_DIR)/$$FILE_NAME.html $$f \
-			--metadata pagetitle="$(TITLE)";\
+			--metadata-file=${MDFILE} \
+			--output $(OUT_DIR)/$$FILE_NAME.html $$f; \
 	done
 
 docx: init
 	for f in $(IN_DIR)/*.md; do \
 		FILE_NAME=`basename $$f | sed 's/.md//g'`; \
 		echo "Creating $$FILE_NAME.docx"; \
-		pandoc --standalone $$SMART $$f --output $(OUT_DIR)/$$FILE_NAME.docx; \
+		pandoc --standalone $$SMART $$f \
+			    --metadata-file=${MDFILE} \
+			   --output $(OUT_DIR)/$$FILE_NAME.docx; \
 	done
 
 rtf: init
 	for f in $(IN_DIR)/*.md; do \
 		FILE_NAME=`basename $$f | sed 's/.md//g'`; \
 		echo "Creating $$FILE_NAME.rtf"; \
-		pandoc --standalone $$SMART $$f --output $(OUT_DIR)/$$FILE_NAME.rtf; \
+		pandoc --standalone $$SMART $$f \
+			   --metadata-file=${MDFILE} \
+			   --output $(OUT_DIR)/$$FILE_NAME.rtf; \
 	done
 
 init: dir version

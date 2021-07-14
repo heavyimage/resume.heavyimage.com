@@ -11,7 +11,7 @@ The setup is heavily based on [Pandoc Resume](https://github.com/mszep/pandoc_re
 $ git clone https://github.com/heavyimage/resume.heavyimage.com
 $ cd pandoc_resume
 $ vim markdown/template.md    # insert your own resume info
-$ vim Makefile                # make sure to update the user info constants to populate metadata
+$ vim metadata.yaml           # make sure to update with your metadata!
 $ make                        # Make everything
 ```
 
