@@ -2,6 +2,7 @@ OUT_DIR=output
 IN_DIR=markdown
 STYLES_DIR=styles
 STYLE=chmduquesne
+TITLE="Jesse Spielman `date +%Y`"
 
 all: html pdf docx rtf
 
@@ -24,7 +25,7 @@ html: init
 			--lua-filter=pdc-links-target-blank.lua \
 			--from markdown --to html \
 			--output $(OUT_DIR)/$$FILE_NAME.html $$f \
-			--metadata pagetitle=$$FILE_NAME;\
+			--metadata pagetitle=$(TITLE);\
 	done
 
 docx: init
