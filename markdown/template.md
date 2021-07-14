@@ -41,7 +41,7 @@ Recent tasks have included Flame and Windows pipeline integration.
 2014-2019
 :	**Senior Pipeline Technical Director**, [Framestore](https://www.framestore.com/) (New York, London)
 
-After working as a VFX artist, made the transition to Pipeline/2D Technical Director (TD).  A Technical Directors is **development and operations** role involving writing code and managing the infrastructure that supports production.
+After working as a VFX artist, made the transition to Pipeline/2D Technical Director (TD).  A Technical Directors is a **development and operations** role involving writing code and managing the infrastructure that supports production.
 
 Hired by Framestore for my combination of programming skill and experience as a compositor to be the point person for the 2D aspects of their new Integrated Advertising pipeline.
 
