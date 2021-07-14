@@ -20,7 +20,13 @@ $endif$
 \definecolor[rulecolor][h=77C7D0]
 
 % Enable hyperlinks
-\setupinteraction[state=start, color=sectioncolor]
+\setupinteraction
+  [state=start,
+   color=sectioncolor,
+   title=TITLE,
+   subtitle=SUBTITLE,
+   author=AUTHOR,
+   keyword={KEYWORDS}]
 
 \setuppapersize [$if(papersize)$$papersize$$else$letter$endif$][$if(papersize)$$papersize$$else$letter$endif$]
 \setuplayout    [width=middle, height=middle,

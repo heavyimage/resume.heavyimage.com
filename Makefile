@@ -2,7 +2,21 @@ OUT_DIR=output
 IN_DIR=markdown
 STYLES_DIR=styles
 STYLE=chmduquesne
-TITLE="Jesse Spielman `date +%Y`"
+DATE=$(shell date +%Y)
+
+# User info!
+AUTHOR_Q := "Jesse Spielman"
+SUBTITLE_Q := "Resume"
+KEYWORDS_Q := "Technical Director, ML, Cybersecurity, Reverse Engineering"
+TITLE_Q := "${AUTHOR_Q} ${SUBTITLE_Q} ${DATE}"
+
+# Remove Quotes from variables...
+# https://stackoverflow.com/a/10430975
+AUTHOR := $(subst $\",,$(AUTHOR_Q))
+SUBTITLE := $(subst $\",,$(SUBTITLE_Q))
+KEYWORDS := $(subst $\",,$(KEYWORDS_Q))
+TITLE := $(subst $\",,$(TITLE_Q))
+
 
 all: html pdf docx rtf
 
@@ -10,7 +24,8 @@ pdf: init
 	for f in $(IN_DIR)/*.md; do \
 		FILE_NAME=`basename $$f | sed 's/.md//g'`; \
 		echo $$FILE_NAME.pdf; \
-		pandoc --standalone --template $(STYLES_DIR)/$(STYLE).tex \
+		sed 's/SUBTITLE/${SUBTITLE}/; s/AUTHOR/${AUTHOR}/g; s/TITLE/${TITLE}/; s/KEYWORDS/${KEYWORDS}/' $(STYLES_DIR)/$(STYLE).tex > /tmp/style.tex; \
+		pandoc --standalone --template /tmp/style.tex \
 			--from markdown --to context \
 			--variable papersize=A4 \
 			--output $(OUT_DIR)/$$FILE_NAME.tex $$f > /dev/null; \
@@ -25,7 +40,7 @@ html: init
 			--lua-filter=pdc-links-target-blank.lua \
 			--from markdown --to html \
 			--output $(OUT_DIR)/$$FILE_NAME.html $$f \
-			--metadata pagetitle=$(TITLE);\
+			--metadata pagetitle="$(TITLE)";\
 	done
 
 docx: init
