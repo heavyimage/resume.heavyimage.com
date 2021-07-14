@@ -1,7 +1,7 @@
 Resume Build system
 ===================
 
-This repo contains my [markdown resume](https://github.com/heavyimage/resume.heavyimage.com/blob/master/markdown/resume.md) and the system that build it into <https://resume.heavyimage.com> and a [pdf](https://resume.heavyimage.com/resume.pdf).
+This repo contains my [markdown resume](https://github.com/heavyimage/resume.heavyimage.com/blob/master/markdown/template.md) and the system that build it into <https://resume.heavyimage.com> and a [pdf](https://resume.heavyimage.com/resume.pdf).
 
 The setup is heavily based on [Pandoc Resume](https://github.com/mszep/pandoc_resume).
 
@@ -10,7 +10,7 @@ The setup is heavily based on [Pandoc Resume](https://github.com/mszep/pandoc_re
 ```bash
 $ git clone https://github.com/heavyimage/resume.heavyimage.com
 $ cd pandoc_resume
-$ vim markdown/resume.md   # insert your own resume info
+$ vim markdown/template.md   # insert your own resume info
 $ make # Make everything
 ```
 
@@ -35,12 +35,12 @@ cd $TMP_GIT_CLONE
 # Make html version
 make html
 rm $PUBLIC_WWW/index.html
-cp output/resume.html $PUBLIC_WWW/index.html
+cp output/template.html $PUBLIC_WWW/index.html
 
 # Make pdf version
 make pdf
 rm $PUBLIC_WWW/resume.pdf
-cp output/resume.pdf $PUBLIC_WWW/resume.pdf
+cp output/template.pdf $PUBLIC_WWW/resume.pdf
 
 rm -Rf $TMP_GIT_CLONE
 exit
