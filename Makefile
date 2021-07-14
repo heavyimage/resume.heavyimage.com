@@ -23,7 +23,7 @@ all: html pdf docx rtf
 pdf: init
 	for f in $(IN_DIR)/*.md; do \
 		FILE_NAME=`basename $$f | sed 's/.md//g'`; \
-		echo $$FILE_NAME.pdf; \
+		echo "Creating $$FILE_NAME.pdf"; \
 		sed 's/SUBTITLE/${SUBTITLE}/; s/AUTHOR/${AUTHOR}/g; s/TITLE/${TITLE}/; s/KEYWORDS/${KEYWORDS}/' $(STYLES_DIR)/$(STYLE).tex > /tmp/style.tex; \
 		pandoc --standalone --template /tmp/style.tex \
 			--from markdown --to context \
@@ -35,7 +35,7 @@ pdf: init
 html: init
 	for f in $(IN_DIR)/*.md; do \
 		FILE_NAME=`basename $$f | sed 's/.md//g'`; \
-		echo $$FILE_NAME.html; \
+		echo "Creating $$FILE_NAME.html"; \
 		pandoc --standalone --include-in-header $(STYLES_DIR)/$(STYLE).css \
 			--lua-filter=pdc-links-target-blank.lua \
 			--from markdown --to html \
@@ -46,14 +46,14 @@ html: init
 docx: init
 	for f in $(IN_DIR)/*.md; do \
 		FILE_NAME=`basename $$f | sed 's/.md//g'`; \
-		echo $$FILE_NAME.docx; \
+		echo "Creating $$FILE_NAME.docx"; \
 		pandoc --standalone $$SMART $$f --output $(OUT_DIR)/$$FILE_NAME.docx; \
 	done
 
 rtf: init
 	for f in $(IN_DIR)/*.md; do \
 		FILE_NAME=`basename $$f | sed 's/.md//g'`; \
-		echo $$FILE_NAME.rtf; \
+		echo "Creating $$FILE_NAME.rtf"; \
 		pandoc --standalone $$SMART $$f --output $(OUT_DIR)/$$FILE_NAME.rtf; \
 	done
 
