@@ -16,13 +16,11 @@ Contact
 Proficiencies
 -------------
 
-**Languages**: English (native speaker)
+**Programming Languages**: Python, C, Java/Android, Processing, shell scripting
 
-**Programming Languages**: Python, C, Java, Processing, shell scripting
+**Other Computer Skills**: git, docker, linux administration, reverse engineering, troubleshooting
 
-**Other Computer Skills**: git, linux administration, reverse engineering, troubleshooting
-
-**Soft skills**: Excellent written / spoken communication, problem solving, leadership and mentoring
+**Soft skills**: Excellent written and spoken communication, code collaboration, problem solving, leadership and mentoring
 
 
 Professional Experience
@@ -36,12 +34,14 @@ Led local application tests for a multi-platform Electron / Go based application
 2019-present
 :	**Technical Director Consultant** (Global)
 
-Leveraging my 10 years of Visual Effects (VFX) industry experience, I now consult for various studios to assist them with their technical needs including pipeline, infrastructure and artist tools.  Most recently this has involved Flame and Windows pipeline integration.
+Leveraging 11 years of Visual Effects (VFX) industry experience, consultant for various studios to assist them with their technical needs including pipeline, infrastructure and artist tools.  Recent tasks have included Flame and Windows pipeline integration.
 
 2014-2019
 :	**Senior Pipeline Technical Director**, [Framestore](https://www.framestore.com/) (New York, London)
 
-After working as a VFX artist I made the transition to Pipeline/2D Technical Director (TD), which I did for 5 years.  A Technical Directors is **development and operations** role involving writing code and mananging the infrastructure that supports production.  I was hired by Framestore for my programming skills and experience as a compositor to be the point person for the 2D aspects of their new Integrated Advertising pipeline.
+After working as a VFX artist, made the transition to Pipeline/2D Technical Director (TD).  A Technical Directors is **development and operations** role involving writing code and managing the infrastructure that supports production.
+
+Was hired by Framestore for my programming skills and experience as a compositor to be the point person for the 2D aspects of their new Integrated Advertising pipeline.
 
 Key Pipeline TD accomplishments:
 
@@ -59,7 +59,7 @@ Key 2D TD accomplishments:
 * Developed **user-friendly** renderfarm, asset library and client download area integration for Nuke and Hiero.
 * Massively improved the **tk-hiero-export** app to support timeline exports, published audio and modular updates of SG Shot fields.
 * Wrote a few **show-specific Nuke tools** e.g. a screenspace rigging tool.
-* **Debugged complex Nuke / Hiero scripts** from production, often with gdb.
+* **Debugged and Optimized** complex Nuke / Hiero scripts from production, often with gdb.
 
 Other accomplishments:
 
@@ -68,12 +68,12 @@ Other accomplishments:
 * **Clearly communicated** complex workflows and tools to artists.
 * **Tutored** junior / new members of the team.
 
-2009-2014
+2008-2014
 :	**Freelance and Staff Compositor** (New York, London)
 
-I worked for 6 years as a Compositor (VFX artist) across multiple films, TV shows and advertisement campaigns, including the Oscar nominated film "Inside Llewyn Davis" and the James Bond Film "Spectre".  
+Worked for 6 years as a Compositor (VFX artist) across multiple films, TV shows and advertisement campaigns, including the Oscar nominated film "Inside Llewyn Davis" and the James Bond Film "Spectre".
 
-I performed start-to-finish compositing (paint and roto, 2d and 3d tracking, keying, color correction and full comp work) for at least 30 TV and Film projects in Shake and Nuke.
+Performed start-to-finish compositing (paint and roto, 2d and 3d tracking, keying, color correction and full comp work) for at least 30 TV and Film projects in Shake and Nuke.  Proficient at both 'invisible effects' and complex multi-pass CG compositing.
 
 More information is available via my [IMDB profile](https://www.imdb.com/name/nm2993340/) and my [2013 showreel](https://vimeo.com/63213779).
 
