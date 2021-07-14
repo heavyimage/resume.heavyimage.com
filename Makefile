@@ -2,6 +2,7 @@ OUT_DIR=output
 IN_DIR=markdown
 STYLES_DIR=styles
 STYLE=chmduquesne
+CUSTOM_HTML_TEMPLATE=custom.html
 MDFILE=metadata.yaml
 
 # The pandoc / mtxrun workflow doesn't properly support the --metadata-file flag
@@ -33,6 +34,7 @@ html: init
 		pandoc --standalone --include-in-header $(STYLES_DIR)/$(STYLE).css \
 			--lua-filter=pdc-links-target-blank.lua \
 			--from markdown --to html \
+			--template=$(STYLES_DIR)/$(CUSTOM_HTML_TEMPLATE) \
 			--metadata-file=${MDFILE} \
 			--output $(OUT_DIR)/$$FILE_NAME.html $$f; \
 	done
