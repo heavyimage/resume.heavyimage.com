@@ -33,12 +33,12 @@ git clone $GIT_REPO $TMP_GIT_CLONE
 cd $TMP_GIT_CLONE
 
 # Make html version
-make html
+make -s html
 rm $PUBLIC_WWW/index.html
 cp output/template.html $PUBLIC_WWW/index.html
 
 # Make pdf version
-make pdf
+make -s pdf
 rm $PUBLIC_WWW/resume.pdf
 cp output/template.pdf $PUBLIC_WWW/resume.pdf
 
