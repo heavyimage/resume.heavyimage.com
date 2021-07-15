@@ -26,8 +26,8 @@ For the deployment repo, you'll probably want to setup a `post-recieve` hook som
 
 ```bash
 #!/bin/bash
-GIT_REPO=$HOME/projects/resume-DEPLOY.git
-TMP_GIT_CLONE=$HOME/tmp/resume-DEPLOY
+GIT_REPO=$HOME/deployment/resume-DEPLOY.git
+TMP_GIT_CLONE=`mktemp -d -t resume-deploy.XXXXXXXXXX`
 PUBLIC_WWW=/var/www/SUBDOMAIN.DOMAIN.com
 
 git clone $GIT_REPO $TMP_GIT_CLONE
