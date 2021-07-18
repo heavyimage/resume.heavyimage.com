@@ -97,6 +97,11 @@ Education
 * **Modules**: ML, Operating Systems, Cryptography, Parallel Computing, Data Mining, Mobile.
 * **Member**: AFNOM ethical hacking club.
 
+2017
+:   **Machine Learning for Artists**, [Gene Kogan](https://genekogan.com) @ [Machines Room](https://www.clear-village.org/category/machinesroom) (London, UK)
+
+Workshop introducing the theory / application of machine learning for creative and artistic practice.
+
 2012-2013
 :   **Continuing Education**, [ITP @ New York University](https://tisch.nyu.edu/itp) (New York)
 
