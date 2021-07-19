@@ -84,14 +84,14 @@ Education
 ---------
 
 2021-2024
-:   **PhD, Computer Science**, [University of Birmingham](http://cs.bham.ac.uk/) (Birmingham, UK)
+:   **PhD, Computer Science**, [University of Birmingham](http://cs.bham.ac.uk/) (UK)
 
 * **Thesis Topic**: Using Side Channel Attacks to leak hidden parameters from Neural Networks
 * **Funding**: Intel Corporation
 * **Supervisors**: Dr. David Oswald and Dr. Mark Ryan
 
 2019-2020
-:   **MSc, Advanced Computer Science (Distinction)**, [University of Birmingham](http://cs.bham.ac.uk/) (Birmingham, UK)
+:   **MSc, Advanced Computer Science (Distinction)**, [University of Birmingham](http://cs.bham.ac.uk/) (UK)
 
 * **Dissertation**: "Hey Alexa: Who’s Mallory? An Amazon Alexa Intercept Appliance"
 * **Modules**: ML, Operating Systems, Cryptography, Parallel Computing, Data Mining, Mobile.
