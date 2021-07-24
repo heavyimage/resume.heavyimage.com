@@ -130,6 +130,10 @@ Feb 2019
 
 Honorable Mention for work as part of a team that [helped extract](https://github.com/HackTheSolarSystem/3Dand2DBubblesInRock-OvernightOwls) the positions of 3d metal 'bubbles' found inside a volumetric scan of a meteorite for the American Museum of Natural History's annual Hackathon.
 
+Oct 2018
+:   **NASA Spaceapps Hackathon 2018**, New York
+Part of a team that design a tool that leveraged NASA's Earth observations data APIs to characterize land cover/land use conditions at informal settlements.
+
 Feb 2018
 :	**Hack the Deep Hackathon**, [AMNH](http://amnh.org) (New York)
 
