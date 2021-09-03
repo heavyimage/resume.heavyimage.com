@@ -117,6 +117,11 @@ Attended 2x summer workshops on creative coding, 3d printing and 'maker' technol
 Talks, Lectures and Participation
 ---------------------------------
 
+Sept 2021
+:	**Data Study Group**, [Turing Institute](https://www.turing.ac.uk/) (UK)
+
+A two-week data science and artificial intelligence hackathon on analyzing real-world bio-medical challenges.
+
 Dec 2020
 :	**LD_PRELOAD and You**, [AFNOM](https://afnom.net) Lightning Talks (Birmingham, UK)
 
