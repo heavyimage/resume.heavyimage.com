@@ -120,7 +120,7 @@ Talks, Lectures and Participation
 Sept 2021
 :	**Data Study Group**, [Turing Institute](https://www.turing.ac.uk/) (UK)
 
-A two-week data science and artificial intelligence hackathon on analyzing real-world bio-medical challenges.
+Two-week biomedical-themed data-science/ML hackathon.  Challenge involved unsupervised discovery and alignment of biological structures in elctron tomography volumes.  Developed skill with Jupyter Studio, numpy, data exploration and 3d visualization.
 
 Dec 2020
 :	**LD_PRELOAD and You**, [AFNOM](https://afnom.net) Lightning Talks (Birmingham, UK)
