@@ -89,13 +89,14 @@ Education
 * **Thesis Topic**: Using Side Channel Attacks to leak hidden parameters from Neural Networks
 * **Funding**: Intel Corporation
 * **Supervisors**: Dr. David Oswald and Dr. Mark Ryan
+* **Board Member**: AFNOM ethical Hacking society
 
 2019-2020
 :   **MSc, Advanced Computer Science (Distinction)**, [University of Birmingham](http://cs.bham.ac.uk/) (UK)
 
 * **Dissertation**: "Hey Alexa: Who’s Mallory? An Amazon Alexa Intercept Appliance"
 * **Modules**: ML, Operating Systems, Cryptography, Parallel Computing, Data Mining, Mobile.
-* **Member**: AFNOM ethical hacking club.
+* **Member**: AFNOM ethical hacking society
 
 2017
 :   **Machine Learning for Artists**, [Gene Kogan](https://genekogan.com) @ [Machines Room](https://www.clear-village.org/category/machinesroom) (London, UK)
