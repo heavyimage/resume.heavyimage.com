@@ -119,7 +119,7 @@ Papers, Talks, Lectures and Participation
 ---------------------------------
 
 June 2022
-: **Faulty Point Unit: ABI Poisoning Attacks on Trusted Execution Environments**, ACM
+: **Faulty Point Unit: ABI Poisoning Attacks on Trusted Execution Environments**, [ACM](https://www.acm.org/)
 
 Co-author on paper which "analyzes a previously overlooked attack surface that allows unprivileged adversaries to impact floating-point computations in enclaves through the Application Binary Interface (ABI)"
 
