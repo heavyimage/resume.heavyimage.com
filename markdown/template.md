@@ -115,8 +115,15 @@ Attended 2x summer workshops on creative coding, 3d printing and 'maker' technol
 * **Concentration**: Communications
 
 
-Talks, Lectures and Participation
+Papers, Talks, Lectures and Participation
 ---------------------------------
+
+June 2022
+: **Faulty Point Unit: ABI Poisoning Attacks on Trusted Execution Environments**, ACM
+
+Co-author on paper which "analyzes a previously overlooked attack surface that allows unprivileged adversaries to impact floating-point computations in enclaves through the Application Binary Interface (ABI)"
+
+[Open Acccess](https://dl.acm.org/doi/10.1145/3491264)
 
 Sept 2021
 :	**Data Study Group**, [Turing Institute](https://www.turing.ac.uk/) (UK)
