@@ -179,7 +179,7 @@ Wrote [nuke.vim](https://www.github.com/heavyimage/nuke.vim), a tool for bridgin
 
 **Photogrammetry workflow**
 
-Wrote an [online tutorial](http://wedidstuff.heavyimage.com) about a free structure-from-motion pipeline that still draws a few hundred hits a day and was written up in Make magazine.
+Wrote an [online tutorial](https://new.heavyimage.com/projects/photogrammetrypipeline/) about a free structure-from-motion pipeline that still draws a few hundred hits a day and was written up in Make magazine.
 
 
 Volunteer Work
