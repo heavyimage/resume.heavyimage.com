@@ -89,7 +89,7 @@ Education
 * **Thesis Topic**: Using Side Channel Attacks to leak hidden parameters from Neural Networks
 * **Funding**: Intel Corporation
 * **Supervisors**: Dr. David Oswald and Dr. Mark Ryan
-* **Board Member**: AFNOM ethical Hacking society
+* **Board Member**: AFNOM ethical hacking society
 
 2019-2020
 :   **MSc, Advanced Computer Science (Distinction)**, [University of Birmingham](http://cs.bham.ac.uk/) (UK)
