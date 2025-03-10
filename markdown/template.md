@@ -3,7 +3,7 @@ Jesse Spielman
 
 ----
 
->  Passionate, personable and highly motivated computer scientist seeks challenging, unique and ethical opportunities.
+>  Passionate, personable and highly motivated computer scientist seeks challenging, unique and ethical opportunities.  Currently finishing my PhD in Machine Learning Security; espected graduation date Fall 2025.
 
 ----
 
@@ -11,7 +11,7 @@ Contact
 -------
 **Email**: <Jesse.Spielman@gmail.com> ///// **UK Phone**: +44 (0)78 088 61922
 
-**Twitter**: [twitter.com/heavyimage](https://www.twitter.com/heavyimage) ///// **Github**: [github.com/heavyimage](https://www.github.com/heavyimage)
+**Github**: [heavyimage](https://www.github.com/heavyimage) ///// **Mastodon**: [@heavyimage](https://mastodon.social/@heavyimage)
 
 Proficiencies
 -------------
@@ -26,13 +26,23 @@ Proficiencies
 Professional Experience
 -----------------------
 
+
+2021-present
+:	**Senior Pipeline Developer**, [Lipsync Post](https://www.lipsyncpost.co.uk) (London)
+
+Maintaining the legacy pipeline systems (publishing, color pipeline) used by all projects at Lipsync, most notably the 2024 Oscar Winning film, The Brutalist.
+
+Building artist-focused tooling with Flow integration for compositors and editors.
+
+Working on a modern pipeline based around Flow and rez.
+
 2020
 :	**Application Vulnerability Testing**, [Robot Talk](https://www.robottalk.tv) (New York)
 
 Led local application tests for a multi-platform Electron / Go based application. Used discreet proxy and fuzzing tools to inspect traffic and API endpoints. Compiled vulnerability report as part of overall client security remediation audit.
 
-2019-present
-:	**Technical Director Consultant** (Global)
+2019-2021
+:	**Freelance VFX Technical Director Consultant** (Global)
 
 Leveraging 11 years of Visual Effects (VFX) industry experience, consultant for various studios to assist them with their technical needs including pipeline, infrastructure and artist tools.
 
@@ -83,13 +93,14 @@ More information is available via my [IMDB profile](https://www.imdb.com/name/nm
 Education
 ---------
 
-2021-2024
+2021-present
 :   **PhD, Computer Science**, [University of Birmingham](http://cs.bham.ac.uk/) (UK)
 
 * **Thesis Topic**: Using Side Channel Attacks to leak hidden parameters from Neural Networks
 * **Funding**: Intel Corporation
-* **Supervisors**: Dr. David Oswald and Dr. Mark Ryan
-* **Board Member**: AFNOM ethical hacking society
+* **Expected Graduation date**: Fall, 2025
+* **Supervisors**: [Dr. David Oswald](https://www.birmingham.ac.uk/staff/profiles/computer-science/academic-staff/oswald-david) and [Dr. Mark Ryan](https://www.birmingham.ac.uk/staff/profiles/computer-science/academic-staff/ryan-mark)
+* **Societies**: Board member of [AFNOM ethical hacking society](https://www.afnom.net) and [Missing Semester UoB](https://missingsemester.afnom.net)
 
 2019-2020
 :   **MSc, Advanced Computer Science (Distinction)**, [University of Birmingham](http://cs.bham.ac.uk/) (UK)
@@ -118,6 +129,11 @@ Attended 2x summer workshops on creative coding, 3d printing and 'maker' technol
 Papers, Talks, Lectures and Participation
 ---------------------------------
 
+November 2023
+: **Embedded Security Challenge**, [CSAW Europe](https://www.csaw.io/esc)
+
+Our team came in second place for the CTF-style event around embeded hardware security.
+
 June 2022
 : **Faulty Point Unit: ABI Poisoning Attacks on Trusted Execution Environments**, [ACM](https://www.acm.org/)
 
@@ -145,6 +161,7 @@ Honorable Mention for work as part of a team that [helped extract](https://githu
 
 Oct 2018
 :   **NASA Spaceapps Hackathon 2018**, New York
+
 Part of a team that design a tool that leveraged NASA's Earth observations data APIs to characterize land cover/land use conditions at informal settlements.
 
 Feb 2018
@@ -208,5 +225,5 @@ Help maintain / update the technical systems for the radio station at the childr
 
 Interests
 ---------
-Pub Quiz, Music Visualization, Photogrammetry, Board Games, Blues Music, CtFs.
+Pub Quiz, Music Visualization, Photogrammetry, Maker culture, Board Games, Blues Music, CtFs.
 
