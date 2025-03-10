@@ -9,7 +9,7 @@ The setup is heavily based on [Pandoc Resume](https://github.com/mszep/pandoc_re
 
 ```bash
 $ git clone https://github.com/heavyimage/resume.heavyimage.com
-$ cd pandoc_resume
+$ cd resume.heavyimage.com
 $ vim markdown/template.md    # insert your own resume info
 $ vim metadata.yaml           # make sure to update with your metadata!
 $ make                        # Make everything
